@@ -72,31 +72,31 @@ const form = new FormData();
 console.log('Data received:---1');
 
 
-form.append('email', 'laxmikanta.28@gmail.com');
-form.append('password', 'Pintu#84');
+// form.append('email', 'laxmikanta.28@gmail.com');
+// form.append('password', 'Pintu#84');
 
 
 
 
 
 
-const payuClient = new PayU(
-  {
-    key: process.env.MERCHANT_KEY,
-    salt: process.env.MERCHANT_SALT,
-  },
-  process.env.MERCHANT_MODE
-);
+// const payuClient = new PayU(
+//   {
+//     key: process.env.MERCHANT_KEY,
+//     salt: process.env.MERCHANT_SALT,
+//   },
+//   process.env.MERCHANT_MODE
+// );
 
 
-const getpay2allprofile = async (token1) => {
- // const data = { date1: date1, date2: date2 }
-  //const tokenApp = window.localStorage.getItem('token');
-  const { data: res } = await axios.get(`https://erp.pay2all.in/api/user`, {
-    headers: { Authorization: `Bearer ${token1}`, },
-  });
-  return res;
-};
+// const getpay2allprofile = async (token1) => {
+//  // const data = { date1: date1, date2: date2 }
+//   //const tokenApp = window.localStorage.getItem('token');
+//   const { data: res } = await axios.get(`https://erp.pay2all.in/api/user`, {
+//     headers: { Authorization: `Bearer ${token1}`, },
+//   });
+//   return res;
+// };
 
 
 router.get("/testcall", async  function(request, response){
