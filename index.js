@@ -40,7 +40,7 @@ var router = express.Router();
 // const emaPeriod = 15;
 // const riskRewardRatio = 3;
 
-const sessiontoken="0";
+const sessiontoken="00";
 
 //set for Global configuration access
 dotenv.config();
