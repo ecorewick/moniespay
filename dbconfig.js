@@ -1,8 +1,8 @@
 const config={
-    user:"sa",
-    password:"sam@000000",
-    server:"207.180.212.179",
-    database:"DB_Moniespay_New",
+    user:"moniespay",
+    password:"Yl9Ou&43Avly*tmo",
+    server:"103.195.185.254",
+    database:"ecoref82_moniespay",
     options: {
         encrypt:false,
         useUTC:true,
